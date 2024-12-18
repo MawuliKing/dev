@@ -39,8 +39,8 @@ export function Contact() {
         </a>
       </div>
       <div className="mt-3">
-        <p>Thank you for visiting my portfolio!</p>
-        <p>
+        <p className="text-gray-600">Thank you for visiting my portfolio!</p>
+        <p className="text-gray-600">
           Portfolio source code here:
           <a
             href="https://github.com/MawuliKing/dev"
@@ -50,7 +50,7 @@ export function Contact() {
             https://github.com/MawuliKing/dev
           </a>
         </p>
-        <p>Best regards, John Emil Modzaka</p>
+        <p className="text-gray-600">Best regards, John Emil Modzaka</p>
       </div>
     </section>
   );

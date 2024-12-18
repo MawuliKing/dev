@@ -8,7 +8,7 @@ export function Header() {
 
   return (
     <header className="flex flex-wrap justify-between items-center mb-8">
-      <h1 className="text-2xl font-bold text-gray-800">John Emil</h1>
+      <h1 className="text-2xl font-bold text-gray-800">JEM</h1>
       <button
         className="lg:hidden text-gray-600 hover:text-gray-800"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
