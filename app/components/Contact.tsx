@@ -38,6 +38,20 @@ export function Contact() {
           LinkedIn
         </a>
       </div>
+      <div className="mt-3">
+        <p>Thank you for visiting my portfolio!</p>
+        <p>
+          Portfolio source code here:
+          <a
+            href="https://github.com/MawuliKing/dev"
+            target="_blank"
+            className="ms-2 text-sm font-mono text-gray-600 dark:text-gray-300 bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded-lg"
+          >
+            https://github.com/MawuliKing/dev
+          </a>
+        </p>
+        <p>Best regards, John Emil Modzaka</p>
+      </div>
     </section>
   );
 }
