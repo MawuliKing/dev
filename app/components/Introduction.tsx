@@ -12,7 +12,7 @@ export function Introduction() {
         contributed to impactful projects across education, finance, and
         property management sectors.
       </p>
-      <p className="text-gray-600 dark:text-gray-300 mb-4">
+      <div className="text-gray-600 dark:text-gray-300 mb-4">
         <strong>Key Achievements:</strong>
         <ul className="list-disc list-inside ml-4">
           <li>
@@ -28,7 +28,7 @@ export function Introduction() {
             applications.
           </li>
         </ul>
-      </p>
+      </div>
       <p className="text-gray-600 dark:text-gray-300 mb-4">
         My philosophy:{" "}
         <em>"Technology should empower people and simplify lives."</em> I thrive
