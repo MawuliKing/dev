@@ -109,7 +109,7 @@ export default function Home() {
               Twitter
             </a>
             <a
-              href="https://linkedin.com/in/johndoe"
+              href="https://www.linkedin.com/in/john-emil-modzaka/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-800 dark:hover:text-gray-100"

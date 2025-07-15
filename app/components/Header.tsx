@@ -3,6 +3,7 @@
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { useState } from "react";
 import { useTheme } from "./ThemeProvider";
+import Link from "next/link";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,12 @@ export function Header() {
     <header className="flex flex-wrap justify-between items-center mb-8">
       <div>
         <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
-          JEM
+          <Link
+            href="/"
+            className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-blue-600"
+          >
+            JEM
+          </Link>
         </h1>
         <p className="text-sm text-gray-500 dark:text-gray-400 -mt-1">
           Empowering ideas through code
@@ -41,35 +47,35 @@ export function Header() {
       >
         <ul className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-4">
           <li>
-            <a
-              href="#about"
+            <Link
+              href="/#about"
               className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#projects"
+            <Link
+              href="/#projects"
               className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#skills"
+            <Link
+              href="/#skills"
               className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
               Skills
-            </a>
+            </Link>
           </li>
           <li>
             <a
-              href="#contact"
+              href="/contact"
               className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
